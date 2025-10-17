@@ -20,7 +20,7 @@ This bot can hold intelligent conversations with users inside a Discord server b
 
 
 #Project Structure
-
+```
 Discord_AI_Bot/
 │
 ├── main.py # Main bot script
@@ -31,20 +31,24 @@ Discord_AI_Bot/
 ├── .gitignore # Ignored files (optional)
 ├── generated-icon.png # Bot icon
 └── README.md # Project documentation
+```
 
 #How to Run
-1.Clone this repository:
-    git clone https://github.com/YourUsername/Discord_AI_Bot.git
-    cd Discord_AI_Bot
-    
-2.Install dependencies:
-    pip install discord openai
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/BabliBharara/Discord_AI_Bot.git
+   cd Discord_AI_Bot
 
+2.Install dependencies:
+   bash
+   pip install discord openai
+   
 3.Add your secrets:
     openai_key → Your OpenAI API key
     secret → Your Discord bot token
 
 4.Run the bot:
-    python main.py
+  bash
+  python main.py
 
 
