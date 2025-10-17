@@ -39,17 +39,19 @@ Discord_AI_Bot/
    git clone https://github.com/BabliBharara/Discord_AI_Bot.git
    cd Discord_AI_Bot
 
-2.Install dependencies:
+2.**Install dependencies**:
    ```bash
    pip install discord openai
+   ```
    
-3.Add your secrets:
+3.**Add your secrets**:
     ```bash
     openai_key → Your OpenAI API key
     secret → Your Discord bot token
+    ```
 
 4.Run the bot:
   ```bash
   python main.py
-
+  ```
 
