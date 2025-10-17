@@ -45,12 +45,10 @@ Discord_AI_Bot/
    ```
    
 3.**Add your secrets**:
-    ```bash
-    openai_key → Your OpenAI API key
-    ```
-    ```bash
+   
+    openai_key → Your OpenAI API key. 
     secret → Your Discord bot token
-    ```
+   
 
 4.**Run the bot**:
   ```bash
